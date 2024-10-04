@@ -1,0 +1,163 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 /opt/microchip/xc8/v2.50/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.50/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"6 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/gpio.c
+[v _PortA_Initialize PortA_Initialize `(v  1 e 1 0 ]
+"22
+[v _PortB_Initialize PortB_Initialize `(v  1 e 1 0 ]
+"38
+[v _PortC_Initialize PortC_Initialize `(v  1 e 1 0 ]
+"54
+[v _PortD_Initialize PortD_Initialize `(v  1 e 1 0 ]
+"70
+[v _PortE_Initialize PortE_Initialize `(v  1 e 1 0 ]
+"86
+[v _PortF_Initialize PortF_Initialize `(v  1 e 1 0 ]
+"8 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"5 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/timer0.c
+[v _TIMER0_Initialize TIMER0_Initialize `(v  1 e 1 0 ]
+"14
+[v _TIMER0_Delay TIMER0_Delay `(v  1 e 1 0 ]
+"5210 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f57q43.h
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5650
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"23298
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"23436
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"23690
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+"23814
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+"40015
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"40077
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"40511
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"40573
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"41007
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"41069
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"41503
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"41565
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"41813
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"41845
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"42048
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"42110
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"48146
+[v _PIR3 PIR3 `VEuc  1 e 1 @1201 ]
+"48861
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"48923
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"48985
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"49047
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"49109
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"49141
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+"49203
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"49265
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"49327
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"49389
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"49451
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"49483
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+"8 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"49
+} 0
+"5 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/timer0.c
+[v _TIMER0_Initialize TIMER0_Initialize `(v  1 e 1 0 ]
+{
+"12
+} 0
+"14
+[v _TIMER0_Delay TIMER0_Delay `(v  1 e 1 0 ]
+{
+"35
+} 0
+"86 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/gpio.c
+[v _PortF_Initialize PortF_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"70
+[v _PortE_Initialize PortE_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"54
+[v _PortD_Initialize PortD_Initialize `(v  1 e 1 0 ]
+{
+"67
+} 0
+"38
+[v _PortC_Initialize PortC_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"22
+[v _PortB_Initialize PortB_Initialize `(v  1 e 1 0 ]
+{
+"35
+} 0
+"6
+[v _PortA_Initialize PortA_Initialize `(v  1 e 1 0 ]
+{
+"19
+} 0
+"4 /home/edson/Documents/MPLABXprojects/MPLABX-C-TIMER0-Test-git/C-TIMER0-Test.X/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"14
+} 0
